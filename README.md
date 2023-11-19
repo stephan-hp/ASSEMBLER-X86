@@ -1,2 +1,2 @@
 # ASSEMBLER-X86
- Assembler games inspired on Yunisleydis Aguilar
+ Assembler games for 512 byte MBR
