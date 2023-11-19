@@ -1,6 +1,6 @@
 ; (C) 2022 Assembler Game - Stephan Herrera
 ;
-; 2536 lines inspired on Yunisleydis Aguilar
+; 2536 lines of code
 ; 
 ; https://github.com/stephan-hp
 ;_______________________________________________________________
@@ -369,7 +369,7 @@ mov	edi,ebx
 call	PintarFichaNegra
 mov	[tiempo],0
 
-;       PEQUE—O CONTADOR QUE FUNCIONA COMO TIMER
+;       PEQUE√ëO CONTADOR QUE FUNCIONA COMO TIMER
 
 inc	[tiempo_l]
 cmp	[tiempo_l],50	; MODIFICAR PARA AJUSTAR EL TIEMPO DE CONTEO
@@ -1533,7 +1533,7 @@ mov [no_come_choca],0
    mov ah,[fs:di]
    cmp ah, 2bh	 ;COMPARA SI EL COLOR DE LA OTRA CASILLA EN DIAGONAL ES EL COLOR
    jne .choca	 ;                   DE LA CASILLA VACIA, SINO NO SE PUEDE COMER
-   mov [FICHA_BLANCA_1],320*200 ;EN CASO DE PODER, DESAPARECE LA FICHA QUE HABÕA
+   mov [FICHA_BLANCA_1],320*200 ;EN CASO DE PODER, DESAPARECE LA FICHA QUE HAB√çA
    mov [come_blanca_izquierda],1
    jmp .salir
 .2:cmp ebx, [FICHA_BLANCA_2]
@@ -2344,7 +2344,7 @@ timer:	 ;CODIGO DEL TIMER
      iret
 
 
-texto_pantalla1 db  '00: inuY samaD'
+texto_pantalla1 db  '00: emiT samaD'
 texto_pantalla2 db  '  !REVO EMAG   '
 
 tiempo	 db 0
